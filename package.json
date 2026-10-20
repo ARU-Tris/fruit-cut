@@ -1,0 +1,20 @@
+{
+  "name": "fruit-cut",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178 --strictPort",
+    "build": "vite build && node scripts/standalone.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 5179 --strictPort",
+    "test": "node --test tests/*.test.js",
+    "verify:standalone": "node scripts/verify-standalone.mjs"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.4"
+  }
+}

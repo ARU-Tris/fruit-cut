@@ -1,0 +1,12 @@
+node_modules/
+dist/
+ref/
+releases/
+*.log
+evidence/*.json
+evidence/*.png
+evidence/*.webm
+!evidence/03-ten-cuts-ready.png
+!evidence/04-forty-pieces.png
+!evidence/05-clean-preserves-queued-cuts.png
+!evidence/06-ready-to-play.png
